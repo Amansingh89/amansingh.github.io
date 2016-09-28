@@ -1,0 +1,170 @@
+/*
+ * Start Bootstrap - Logo Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+#logo{
+	width: 160px;
+	height: 60px;
+	position: absolute;
+	top: -4px;
+	left: 283px;
+
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(248, 127, 41);
+}
+#navright{
+	display: flex;
+	justify-content: flex-end;
+}
+h3{
+	color: black;
+	font-family: bold;
+	font-size: 40px;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.4;
+}
+
+footer {
+    margin: 50px 0;
+}
+section.about h2.text-center {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+ol{
+	color: black;
+}
+.carousel-indicators li{
+	background-color: black;
+	border: 1px solid black;
+}
+#about , #ourteam,#contactus{
+	width: 100%;
+	height: 970px;
+	background: #c7c7c7;
+	
+
+}
+#videos{
+    width: 100%;
+    height: 970px;
+    background-color: black;
+     border-radius: 15px;
+
+    
+    
+
+}
+h1{
+	 font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+a {
+    color: rgb(248, 127, 41);
+}
+.carousel, .item, .active {
+    height: 98%;
+}
+#vidcon {
+    
+    height: 800px;
+    
+    border-radius: 15px;
+       margin: 0 1em 2em 1em;
+
+}
+.box {
+    border-radius: 4px;
+    
+    background: #2c2c32;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+       
+
+}
+.image.fit img {
+    width: 100%;
+
+}
+.box .image img {
+    border-radius: 4px 4px 0 0;
+
+}
+.image img {
+    border-radius: 4px;
+    display: inline-block;
+    display: flex;
+
+
+}
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #70c7be;
+    border-radius: 4px;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 9.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.button.style2 {
+    background-color: #7f92cf;
+}
+#main{
+    background-color: #d2732f
+}
+#top{
+     background-color: #d2732f

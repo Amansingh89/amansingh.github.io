@@ -12,12 +12,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="assets/css/main.css" />
          <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
-    <link rel="stylesheet" type="text/css" href="">
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
     <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
     
-    <link href="css/logo-nav.css" rel="stylesheet">    
+    <link href="css/logo-nav.css" rel="stylesheet">  
+
+    <style type="text/css">
+        
+        body{
+            background-image: url('images/brick.jpg');
+        }
+        #map{
+            width: 100%;
+            height: 350px;
+        }
+        #gmap_display{
+            height: 350px;
+            width: 100%;
+        }
+    </style>  
     </head>
-    <body id="top">
+    <body>
 
      <nav id="nav" class="navbar navbar-inverse" role="navigation">
         <div class="container">
@@ -36,13 +51,12 @@
             <!-- Collect the nav links, forms, and other content for toggling -->     
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right social">                 
-               <li><a href="videos.html">ABOUT US</a></li>
-                <li><a href="ourteam.html">OUR TEAM</a></li>
+               <li><a href="about.html">ABOUT US</a></li>                
                 <li><a href="videos.html">VIDEOS</a></li>
+                <li><a href="ourteam.html">OUR TEAM</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>           
-               <li><a href="https://www.facebook.com/officiallaughAlot/"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="https://www.facebook.com/officiallaughAlot/"><i class="fa fa-lg fa-facebook"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCnvl4dwXsdHKsADSXGkZoEw"><i class="fa fa-lg fa-youtube"></i></a></li>
-           
             </ul>        
         </div>            
         </div>        
@@ -103,7 +117,23 @@
             </div>
         </div>
     </div>
+    
+    <div class="row">
+        <div id="map">
+            <div >
+                <div id="gmap_display">
+                    <iframe style="height:100%;width:98%;border:0; margin-left:12px;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=+Ranelagh+28 Charleston Road+Dublin+6,+Dublin,+Ireland&key=AIzaSyAgIdymQpbdfYpDVhp4TV9RubEzI-XUpXw"></iframe>
+                </div>
+                <a class="embed-map-code" rel="nofollow" href="http://www.szablonypremium.pl/wordpress" id="auth-map-data">motywy wordpress</a>
+                <style>#gmap_display img{max-width:none!important;background:none!important;font-size: inherit;}</style>
+            </div>
+
+            <script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=b3af4efd-72f5-3ef2-1c26-3634effd1e31&c=embed-map-code&u=1475074347" defer="defer" async="async"></script>
+            
+        </div>
+    </div>
 </div>
+
 
 
 

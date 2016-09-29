@@ -4,10 +4,12 @@
     <meta charset="utf-8"> 
     <title>LAUGH-A-LOT OFFICIAL WEBSITE</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
-    <link rel="stylesheet" type="text/css" href="">
-    <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
     
-    <link href="css/logo-nav.css" rel="stylesheet">    
+    <script   src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    
+    <link href="css/logo-nav.css" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+    
  </head>
 
 <body>
@@ -29,9 +31,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->     
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right social">                 
-                <li><a href="videos.html">ABOUT US</a></li>
-                <li><a href="ourteam.html">OUR TEAM</a></li>
+                <li><a href="about.html">ABOUT US</a></li>                
                 <li><a href="videos.html">VIDEOS</a></li>
+                <li><a href="ourteam.html">OUR TEAM</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>           
                 <li><a href="https://www.facebook.com/officiallaughAlot/"><i class="fa fa-lg fa-facebook"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCnvl4dwXsdHKsADSXGkZoEw"><i class="fa fa-lg fa-youtube"></i></a></li>
@@ -113,15 +115,26 @@
 
    
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-      <script>
+ 
+     
+      <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+        <!-- Latest compiled and minified JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+            
+        </script>
+         <script>
     $('.carousel').carousel({
-        interval: 3000 //changes the speed
+        interval: 1500 //changes the speed
     })
     </script>
-    <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
-
+<script>
+ $(document).ready(function(){
+      $("btn").click(function(){
+      $("divid").dialog();
+   });
+  });  
+ </script>
 </body>
 
 </html>
